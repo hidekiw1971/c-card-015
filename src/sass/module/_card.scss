@@ -1,11 +1,11 @@
 @use "global" as *;
 .card {
   display: inline-block;
-  width: rem(400);
-  min-height: rem(416);
+  // min-height: rem(416);
   height: 100%;
   background-color: #111;
   @include mq(md) {
+    width: calc(100% / 3.03);
   }
   @include mq(xl) {
   }

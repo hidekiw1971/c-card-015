@@ -1,9 +1,11 @@
 @use "global" as *;
 .card__inner {
   min-height: inherit;
-  background-color: #fff;
-  margin: rem(25);
+  background-color: #111;
   @include mq(md) {
+    margin-top: rem(25);
+    margin-left: rem(25);
+    margin-bottom: rem(25);
   }
   @include mq(xl) {
   }

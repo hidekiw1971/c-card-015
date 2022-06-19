@@ -1,10 +1,9 @@
 @use "global" as *;
-.card__img--inner {
+.blog {
   display: inline-block;
-  width: rem(335);
-  height: 100%;
-  object-fit: cover;
   @include mq(md) {
+    max-width: rem(1115);
+    width: 100%;
   }
   @include mq(xl) {
   }
