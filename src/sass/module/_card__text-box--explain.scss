@@ -1,0 +1,14 @@
+@use "global" as *;
+.card__text-box--explain {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: rem(14);
+  font-style: normal;
+  font-weight: $normal;
+  letter-spacing: rem(1);
+  line-height: 1.857;
+  text-align: left;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

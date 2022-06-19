@@ -1,0 +1,9 @@
+@use "global" as *;
+.card__text-box {
+  padding-right: rem(24);
+  padding-left: rem(24);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

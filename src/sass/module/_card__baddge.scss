@@ -1,0 +1,27 @@
+@use "global" as *;
+.card__baddge {
+  position: relative;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.card__baddge::after {
+  content: "New";
+  width: rem(60);
+  height: rem(60);
+  background-color: #ffba6a;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: rem(45);
+  overflow: hidden;
+  top: 0%;
+  left: 0%;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

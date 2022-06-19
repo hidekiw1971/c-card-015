@@ -1,0 +1,10 @@
+@use "global" as *;
+.card__inner {
+  min-height: inherit;
+  background-color: #fff;
+  margin: rem(25);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

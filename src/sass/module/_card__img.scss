@@ -1,0 +1,10 @@
+@use "global" as *;
+.card__img {
+  width: rem(350);
+  height: rem(233);
+  overflow: hidden;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
