@@ -2,7 +2,8 @@
 .blog {
   display: inline-block;
   @include mq(md) {
-    max-width: rem(1115);
+    // max-width: rem(1125);
+    max-width: rem(1125+50);
     width: 100%;
   }
   @include mq(xl) {

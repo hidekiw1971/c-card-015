@@ -18,9 +18,11 @@
   align-items: center;
   border-radius: rem(45);
   overflow: hidden;
-  top: 0%;
-  left: 0%;
+  top: -25px;
+  left: 0;
   @include mq(md) {
+    top: 0;
+    left: -25px;
   }
   @include mq(xl) {
   }

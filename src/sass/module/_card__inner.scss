@@ -2,10 +2,20 @@
 .card__inner {
   min-height: inherit;
   background-color: #111;
+  margin-right: rem(25);
+  margin-left: rem(25);
   @include mq(md) {
     margin-top: rem(25);
-    margin-left: rem(25);
+    margin-left: rem(0);
     margin-bottom: rem(25);
+  }
+  @include mq(xl) {
+  }
+}
+
+.card__inner.card__inner--margin-right-off {
+  @include mq(md) {
+    margin-right: rem(0);
   }
   @include mq(xl) {
   }

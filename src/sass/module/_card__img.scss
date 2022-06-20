@@ -1,12 +1,12 @@
 @use "global" as *;
 .card__img {
   text-align: center;
+  // min-width: rem(335);
   width: 100%;
-  // height: rem(233);
+  overflow: hidden;
   @include mq(md) {
     max-width: rem(350);
     width: 100%;
-    overflow: hidden;
   }
   @include mq(xl) {
   }
