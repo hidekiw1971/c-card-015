@@ -5,6 +5,8 @@
   @include mq(md) {
     flex-wrap: wrap;
     flex-direction: initial;
+    margin-right: rem(25);
+    margin-left: rem(25);
   }
   @include mq(xl) {
   }

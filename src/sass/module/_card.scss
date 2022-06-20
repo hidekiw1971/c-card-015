@@ -6,7 +6,8 @@
   // background-color: #111;
   background-color: #f00;
   @include mq(md) {
-    width: calc(100% / 3.03);
+    // width: calc(100% / 3);
+    width: rem(350+25);
   }
   @include mq(xl) {
   }
