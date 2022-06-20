@@ -3,7 +3,8 @@
   display: inline-block;
   // min-height: rem(416);
   height: 100%;
-  background-color: #111;
+  // background-color: #111;
+  background-color: #f00;
   @include mq(md) {
     width: calc(100% / 3.03);
   }
