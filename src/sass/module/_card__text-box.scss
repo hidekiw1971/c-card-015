@@ -2,6 +2,7 @@
 .card__text-box {
   padding-right: rem(24);
   padding-left: rem(24);
+  background-color: #fff;
   @include mq(md) {
   }
   @include mq(xl) {
