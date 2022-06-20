@@ -1,0 +1,11 @@
+@use "global" as *;
+.blog__inner {
+  display: flex;
+  flex-direction: column;
+  @include mq(md) {
+    flex-wrap: wrap;
+    flex-direction: initial;
+  }
+  @include mq(xl) {
+  }
+}

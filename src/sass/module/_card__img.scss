@@ -2,7 +2,7 @@
 .card__img {
   text-align: center;
   width: 100%;
-  height: rem(233);
+  // height: rem(233);
   @include mq(md) {
     max-width: rem(350);
     width: 100%;

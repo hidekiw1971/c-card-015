@@ -1,7 +1,7 @@
 @use "global" as *;
 .card__img--inner {
   display: inline-block;
-  width: rem(335);
+  // width: rem(335);
   height: 100%;
   object-fit: cover;
   @include mq(md) {
